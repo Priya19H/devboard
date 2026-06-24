@@ -21,6 +21,7 @@ jobs:
       - name: Install dependencies/npm install
         working-directory: devboard/frontend
         run: npm install
+        shell: /bin/bash
 
         # step 4: Run Linter / Node.js Linting
   #    - uses: actions/checkout@v4
