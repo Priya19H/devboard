@@ -19,7 +19,7 @@ jobs:
         
         #Step 2: npm package install
       - name: Install dependencies/npm install
- #       working-directory: devboard/frontend
+        working-directory: frontend
         run: npm install
         
 
