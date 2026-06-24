@@ -32,7 +32,10 @@ jobs:
         run: npm run lint
         working-directory: frontend
       
-      
         #step 5: Run Test
+      - name: Run Test
+        run: npm run test
+        working-directory: frontend
+        
         #Step 6: Login to dockerhub
      # - name: 
