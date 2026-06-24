@@ -28,11 +28,11 @@ jobs:
         
 
         # step 4: Run Linter / Node.js Linting
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: {node-version: 'lts/*', cache: 'npm'}
-      - run: npm run lint
-
+      - name: Run Linter
+        run: npm run lint
+        working-directory: frontend
+      
+      
         #step 5: Run Test
         #Step 6: Login to dockerhub
      # - name: 
