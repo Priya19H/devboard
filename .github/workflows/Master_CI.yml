@@ -1,4 +1,4 @@
-#Goal : To build the image for frontend  and push to the docker hub
+#Goal : To build the image for frontend  and push to the docker hub 
 name: CI
 on: 
   push:
