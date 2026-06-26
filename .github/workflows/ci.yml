@@ -3,8 +3,9 @@
 name: CI
 
 on: 
-    push:
-        branches: [advanced]
+   # push:
+   workflow_dispatch: 
+  # branches: [advanced]
 
 jobs:
     frontend:
